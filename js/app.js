@@ -88,6 +88,12 @@ $(document).ready(function () {
         zoom: {
             enabled: true
         }
+    });
+
+    //sslider
+    $('.slider').slick({
+        arrows: false,
+        autoplay: true,
     })
 
 });
