@@ -18,6 +18,8 @@
     --success : #1ecab8;
     --danger : #f1646c;
     --dark-blue: #28365f;
+    --dark-gray: #171f33;
+    --yellow: #f3c74d;
 }
 
 /* Reset */
@@ -331,4 +333,37 @@ section.skills .skills_wrapper .skill_box .progress_wrap .progress_bar .tooltip{
     color: var(--ternary);
     font-size: 16px;
     text-transform: uppercase;
+}
+section.counter_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--dark-gray);
+}
+section.counter_wrapper > div{
+    display: flex;
+    align-items: center;
+}
+section.counter_wrapper > div i{
+    font-size: 42px;
+    margin-right: 5px;
+}
+section.counter_wrapper > div:nth-child(1) i{
+    color: var(--yellow);
+}
+section.counter_wrapper > div:nth-child(2) i{
+    color: var(--success);
+}
+section.counter_wrapper > div:nth-child(3) i{
+    color: var(--dribble);
+}
+section.counter_wrapper > div h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--fade);
+    margin-bottom: 8px;
+}
+section.counter_wrapper > div h5{
+    font-size: 14px;
+    color: var(--fade);
+    margin-bottom: 8px;
 }
