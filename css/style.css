@@ -561,7 +561,6 @@ footer{
         clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 80%);
     }
 }
-}
 @media(max-width:970px){
     section.skills .content{
         display: block;
